@@ -5,8 +5,10 @@
     --f_Raleway: 'Raleway';
     --f_Tinos: 'Tinos';
     --primery: #3FA72F;
-    --secondary: #FF8A00;
+    --orange: #FF8A00;
     --tertiary: #311F09;
+    --text-muted: #dcd3ce;
+    
 }
 
 * {
@@ -38,3 +40,126 @@ button {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+
+/*footer by artur*/
+
+.footer {
+    background:#311F09;
+    padding: 70px 0 40px;
+    font-family: sans-serif;
+    color: var(--text-muted);
+}
+
+.footer-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    flex-wrap: wrap;
+    margin-top: 51px;
+}
+
+.logo-img{
+    width: 132;
+    height: 51;
+    top: 9510.53px;
+    left: 164px;
+    opacity: 1;
+}
+
+.brand-text {
+    display: flex;
+     padding-top: 45px;
+     size: 20px;
+     width: 352;
+    height: 120;
+    top: 9606.53px;
+    left: 164px;
+    opacity: 1;
+}
+  .brand-text p{
+    margin-top: 10px;
+  }
+
+ .twitter{
+    padding-top: 45px;
+    width: 60;
+    height: 60;
+    top: 9765.53px;
+    left: 167px;
+    opacity: 1;
+    padding-right: 15px;
+}
+.instagram{
+    width: 60;
+    height: 60;
+    top: 9765.53px;
+    left: 257px;
+    opacity: 1;
+    padding-top: 45px;
+    padding-right: 15px;
+    }
+.facebook{
+    padding-top: 45px;
+    width: 60;
+    height: 60;
+    top: 9765.53px;
+    left: 347px;
+    opacity: 1;
+    padding-right: 15px;
+}
+.ContactText{
+    padding-top:20px;
+}
+.PageText{
+    padding-top: 20px;
+}
+.InfoText{
+    padding-top: 20px;
+}
+.footer-col h3{
+    color: var(--orange);
+    margin-bottom: 15px;
+    width: 123;
+    height: 335;
+    top: 9510.53px;
+    left: 582px;
+    opacity: 1;
+}
+.footer-contact h3 {
+    color: var(--orange);
+    margin-bottom: 15px;
+    }
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: var(--text-light);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    color: var(--text-light);
+    font-weight: bold;
+    padding-top: 51px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: left;
+        gap: 40px;
+    }
+}
+/*and footer*/
