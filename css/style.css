@@ -38,3 +38,56 @@ button {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    position: sticky;
+}
+
+.list {
+    display: flex;
+    column-gap: 45px;
+}
+
+.link {
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    transition: 10ms;
+}
+
+.basket {
+    font-size: 20px;
+    color: #311F09;
+    background-color: #f4f2f295;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.login {
+    background-color: #3FA72F;
+    color: white;
+    padding: 15px 34px;
+    border-radius: 133px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.link:hover {
+    color: #FF8A00;
+}
+
+.restaurant {
+    color: #FF8A00;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #f4c38ba6;
+    padding: 10px 34px;
+    border-radius: 126px;
+}
