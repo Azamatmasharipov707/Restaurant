@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tinos:wght@700&display=swap');
+
+:root {
+    --f_Poppins: 'Poppins';
+    --f_Raleway: 'Raleway';
+    --f_Tinos: 'Tinos';
+    --primery: #3FA72F;
+    --secondary: #FF8A00;
+    --tertiary: #311F09;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: var(--f_Poppins);
+    background: #FFF4E7;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.reserve .container {
+    max-width: 1511px;
+    width: 100%;
+    margin: 0 auto;
+    top: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+
+.left__reserve:nth-of-type {
+    max-width: 882px;
+    width: 100%;
+    height: 883px;
+    left: -102px;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+.left__reserve{
+    max-width: 882px;
+    width: 100%;
+    height: 883px;
+    position: relative;
+}
+
+.right__reserve {
+    max-width: 500px;
+    width: 100%;
+    padding: 145px 0px 160px 43px;
+}
+
+.reserve__p {
+    font-family: var(--f_Tinos);
+    font-weight: 700;
+    font-size: 80px;
+}
+
+
+.reserve__p span {
+    color: var(--secondary);
+}
+
+.reserve__text {
+    font-family: var(--f_Poppins);
+    font-weight: 400;
+    font-size: 20px;
+    margin: 50px 0px 132px 0;
+}
+
+.reserve__btn {
+    max-width: 233px;
+    width: 100%;
+    height: 75px;
+    background: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 163px;
+}
+
+.reserve__btn button {
+    background: var(--secondary);
+    color: white;
+    font-family: var(--f_Poppins);
+    font-weight: 600;
+    font-size: 20px;
+}
