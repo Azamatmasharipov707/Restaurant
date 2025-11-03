@@ -154,7 +154,10 @@ nav {
     z-index: 3;
     width: 492px;
     height: 492px;
-    animation: spagetti 4s infinite;
+    bottom: 25px;
+    left: 90px;
+    transform-origin: center center;
+    animation: spagetti 30s linear infinite;
 }
 
 .spagetti {
@@ -166,10 +169,11 @@ nav {
 
 @keyframes spagetti {
     0% {
-        transform: rotate(360deg);
-    }
-    100% {
         transform: rotate(0deg);
+    }
+  
+    100% {
+        transform: rotate(360deg);
     }
 
 }
