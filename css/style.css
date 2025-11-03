@@ -198,3 +198,13 @@ nav {
     left: 430px;
     transform: rotate(150deg);
 }
+
+
+.customers__title{
+font-family: 'Tinos';
+font-weight: 700;
+font-style: Bold;
+font-size: 80px;
+line-height: 200%;
+padding-top: 120px;
+}
