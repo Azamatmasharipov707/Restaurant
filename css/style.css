@@ -33,7 +33,7 @@ button {
     border: none;
 }
 
-.reserve .container {
+/* .reserve .container {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
@@ -96,4 +96,19 @@ button {
     font-family: var(--f_Poppins);
     font-weight: 600;
     font-size: 20px;
+} */
+
+
+/* ====================================Openday start============================================= */
+
+.openday .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.openday__p{
+    font-weight: bold;
+    font-size: 80px;
 }
