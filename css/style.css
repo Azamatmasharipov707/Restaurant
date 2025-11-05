@@ -7,6 +7,8 @@
     --primery: #3FA72F;
     --secondary: #FF8A00;
     --tertiary: #311F09;
+    --text-muted: #dcd3ce;
+
 }
 
 * {
@@ -171,7 +173,7 @@ nav {
     0% {
         transform: rotate(0deg);
     }
-  
+
     100% {
         transform: rotate(360deg);
     }
@@ -198,3 +200,95 @@ nav {
     left: 430px;
     transform: rotate(150deg);
 }
+
+/*footer by artur*/
+
+.footer {
+    background: #311F09;
+    padding: 70px 0 40px;
+    font-family: sans-serif;
+    color: var(--text-muted);
+}
+
+.footer-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    flex-wrap: wrap;
+    margin-top: 51px;
+}
+
+.brand-text {
+    display: flex;
+    padding-top: 45px;
+}
+
+.brand-text p {
+    margin-top: 10px;
+}
+
+.twitter {
+    padding-top: 45px;
+    padding-right: 15px;
+}
+
+.instagram {
+    padding-top: 45px;
+    padding-right: 15px;
+}
+
+.facebook {
+    padding-top: 45px;
+    padding-right: 15px;
+}
+
+.ContactText {
+    padding-top: 20px;
+}
+
+.PageText {
+    padding-top: 20px;
+}
+
+.InfoText {
+    padding-top: 20px;
+}
+
+.footer-col h3 {
+    color: var(--secondary);
+    margin-bottom: 15px;
+}
+
+.footer-contact h3 {
+    color: var(--secondary);
+    margin-bottom: 15px;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: var(--text-light);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    color: var(--text-light);
+    font-weight: bold;
+    padding-top: 51px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: left;
+        gap: 40px;
+    }
+}
+
+/*and footer*/
