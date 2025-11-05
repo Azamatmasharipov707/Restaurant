@@ -86,6 +86,7 @@ nav {
 .header__content {
     display: flex;
     width: 523px;
+    margin-bottom: 160px;
 }
 
 .restaurant {
@@ -207,4 +208,89 @@ font-style: Bold;
 font-size: 80px;
 line-height: 200%;
 padding-top: 120px;
+text-align: center;
+}
+.customer__card{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.customer__img{
+   padding: 55px 0 41px;
+
+}
+.custom__name{
+font-family: 'Poppins';
+font-weight: 600;
+
+font-size: 30px;
+}
+.custom__work{
+font-family: 'Poppins';
+font-weight: 400;
+padding: 10px 0 90px;
+font-size: 20px;
+color: #5C4529;
+}
+.custom__card__txt{
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+width: 524px;
+color: #5C4529;
+position: relative;
+}
+.customers__images{
+    display: flex;
+    position: relative;
+}
+.customers__images div:nth-child(1) img{
+    position: absolute;
+    top: 9px;
+    left: -440px;
+}
+.customers__images div:nth-child(2) img{
+    position: absolute;
+    top: 45px;
+    left: -370px;
+}
+.customers__images div:nth-child(3) img{
+    position: absolute;
+    top: 100px;
+    left: -250px;
+}
+.customers__images div:nth-child(4) img{
+    position: absolute;
+    top: 130px;
+    left: -120px;
+}
+.customers__images div:nth-child(5) img{
+    position: absolute;
+    top: 95px;
+    right: -240px;
+}
+.customers__images div:nth-child(6) img{
+    position: absolute;
+    top: 45px;
+    right: -365px;
+}
+.customers__images div:nth-child(7) img{
+    position: absolute;
+    top: 9px;
+    right: -460px;
+}
+
+.custom__card__txt div:nth-child(1){
+    position: absolute;
+   color: black;
+   font-size: 80px;
+   font-weight: 400;
+}
+
+.custom__card__txt div:nth-child(2){
+   color: black;
+  position: absolute;
+   font-size: 80px;
+   font-weight: 400;
 }
