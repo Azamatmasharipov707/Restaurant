@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tinos:wght@700&display=swap');
+
+:root {
+    --f_Poppins: 'Poppins';
+    --f_Raleway: 'Raleway';
+    --f_Tinos: 'Tinos';
+    --primery: #3FA72F;
+    --secondary: #FF8A00;
+    --tertiary: #311F09;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: var(--f_Poppins);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.menu__title {
+    font-family: var(--f_Tinos);
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 200%;
+    text-align: center;
+}
+
+.menu__boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__btn {
+    font-family: var(--f_Poppins);
+    font-size: 20px;
+    line-height: 200%;
+    border-radius: 163px;
+    padding: 16px 8px;
+    width: 192px;
+    max-width: 100%;
+    margin: 27px;
+    transition: .5s;
+}
+
+.menu__btn:hover {
+    background: var(--tertiary);
+    color: white;
+}
+
+.menu__meal {
+    width: 344px;
+    height: 638px;
+    border-radius: 70px; 
+}
+
+.menu__meal-img {
+    width: 270px;
+    height: 270px;
+    box-shadow: 0px 13px 33px 0px #57677633;
+}
+
+.menu__meal-title {
+    font-family: var(--f_Poppins);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 200%;
+    color: var(--tertiary);
+    text-align: center;
+}
+
+.menu__meal-icon {
+    text-align: center;
+    columns: var(--secondary);
+}
