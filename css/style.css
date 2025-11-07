@@ -41,6 +41,11 @@ button {
     padding: 0 15px;
 }
 
+.btn {
+    background: var(--secondary);
+    color: white;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -230,6 +235,13 @@ nav {
 .menu__btn:hover {
     background: var(--tertiary);
     color: white;
+}
+
+.menu__card-btn {
+    padding: 11px 36px;
+    border-radius: 162px;
+    font-weight: 600;
+    line-height: 200%;
 }
 
 /*footer by artur*/
