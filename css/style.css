@@ -33,7 +33,7 @@ button {
     border: none;
 }
 
-/* .reserve .container {
+.reserve .container {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
@@ -96,7 +96,7 @@ button {
     font-family: var(--f_Poppins);
     font-weight: 600;
     font-size: 20px;
-} */
+}
 
 
 /* ====================================Openday start============================================= */
@@ -106,6 +106,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(/Restaurant/image/open_day/Background.svg);
+    background-repeat: no-repeat;
 }
 
 .openday__p{
