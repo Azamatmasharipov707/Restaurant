@@ -201,6 +201,37 @@ nav {
     transform: rotate(150deg);
 }
 
+/* ============================== Menu start =================================== */
+.menu {
+    padding: 164px 0 200px;
+}
+.menu__title {
+    font-size: 80px;
+    font-family: var(--f_Tinos);
+    color: var(--tertiary);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.menu__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__btn {
+    background: #D0CCC7;
+    padding: 17px 63px;
+    border-radius: 163px;
+    font-size: 20px;
+    color: var(--tertiary);
+}
+
+.menu__btn:hover {
+    background: var(--tertiary);
+    color: white;
+}
+
 /*footer by artur*/
 
 .footer {
