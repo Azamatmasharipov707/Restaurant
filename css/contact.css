@@ -55,17 +55,39 @@ button {
     line-height: 100%;
     text-align: center;
     color: #311F09;
+    padding-bottom: 108px;
 }
 
-.contact__form {
+.contact__form div:nth-of-type(1) {
     display: flex;
-    flex-wrap: wrap;
-    padding: 36 80;
-
-    /* flex-direction: column; */
+    column-gap: 32px;
+    margin-bottom: 50px;
+    justify-content: center;
+    border: none;
+}
+ 
+.contact__form div:nth-of-type(2) {
+    display: flex;
+    column-gap: 32px;
+    justify-content: center;
+    border: none;
 }
 
-.contact__form input {
-    max-width: 540px;
-    width: 100%;
+.input {
+border-radius: 20px;
+padding: 37px 80px;
+width: 540px;
+outline: none;
+border: none;
+background-color: #d0ccc72f;
+}
+
+.contact_f_text {
+    width: 1112px;
+    height: 385px;
+    margin-top: 50px;
+    outline: none;
+    border: none;
+    background-color: #d0ccc72f;
+    padding: 60px 80px;
 }
