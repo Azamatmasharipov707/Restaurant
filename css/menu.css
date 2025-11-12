@@ -73,12 +73,19 @@ button {
     width: 344px;
     height: 638px;
     border-radius: 70px; 
+    background: #d0ccc72e;
+    /* display: flex; */
+    padding: 25px;
 }
 
 .menu__meal-img {
     width: 270px;
     height: 270px;
     box-shadow: 0px 13px 33px 0px #57677633;
+    overflow: hidden;
+    border-radius: 50%;
+    /* padding: 34px 37px 25px; */
+    justify-content: center;
 }
 
 .menu__meal-title {
@@ -88,9 +95,53 @@ button {
     line-height: 200%;
     color: var(--tertiary);
     text-align: center;
+    padding-top: 25px;
 }
 
 .menu__meal-icon {
     text-align: center;
-    columns: var(--secondary);
+    color: var(--secondary);
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.menu__meal-icon i:last-of-type {
+    color: white;
+}
+
+.menu__meal-text {
+    font-family: var(--f_Poppins);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: var(--tertiary);
+    text-align: center;
+}
+
+.menu__meal-price {
+    font-family: var(--f_Poppins);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    color: var(--tertiary);
+}
+
+.menu__meal-btn {
+    width: 158px;
+    height: 55px;
+    background:var(--secondary) ;
+    color: white;
+    border-radius: 163px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__meal-footer {
+    display: flex;
+    align-items: center;
+    column-gap: 34px;
+    padding-top: 30px;
 }
