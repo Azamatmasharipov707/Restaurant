@@ -45,6 +45,8 @@ button {
     font-style: Bold;
     font-size: 80px;
     text-align: center;
+    color: var(--tertiary);
+    margin-bottom: 36px;
 
 }
 
@@ -54,7 +56,7 @@ button {
     font-size: 25px;
     line-height: 100%;
     text-align: center;
-    color: #311F09;
+    color: var(--tertiary);
     padding-bottom: 108px;
 }
 
@@ -90,4 +92,26 @@ background-color: #d0ccc72f;
     border: none;
     background-color: #d0ccc72f;
     padding: 60px 80px;
+}
+
+.submit{
+padding: 36px 0;
+border-radius: 20px;
+background-color: var(--secondary);
+color: white;
+width: 520px;
+font-size: 25px;
+font-weight: 400;
+}
+
+.submit_div{
+align-items: center;
+display: flex;
+justify-content: center;
+margin-top: 85px;
+margin-bottom: 114px;
+}
+
+.maps{
+    justify-content: center;
 }
