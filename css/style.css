@@ -307,6 +307,11 @@ nav {
     font-weight: 600;
 }
 
+.menu__btn.active {
+    background: var(--tertiary);
+    color: white;
+}
+
 .menu__btn:hover {
     background: var(--tertiary);
     color: white;
@@ -327,7 +332,8 @@ nav {
     column-gap: 20px;
 }
 
-.menu__pagination span, button {
+.menu__pagination span, 
+.menu__pagination button {
     width: 55px;
     height: 55px;
     border-radius: 15px;
