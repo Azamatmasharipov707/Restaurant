@@ -375,6 +375,10 @@ nav {
     margin-top: 51px;
 }
 
+.footer-left {
+    color: white;
+}
+
 .brand-text {
     display: flex;
     padding-top: 45px;
@@ -401,6 +405,7 @@ nav {
 
 .ContactText {
     padding-top: 20px;
+    color: white;
 }
 
 .PageText {
@@ -410,6 +415,7 @@ nav {
 .InfoText {
     padding-top: 20px;
 }
+
 
 .footer-col h3 {
     color: var(--secondary);
@@ -427,7 +433,7 @@ nav {
 
 .footer-col a {
     text-decoration: none;
-    color: var(--text-light);
+    color: white;
 }
 
 .footer-bottom {
